@@ -1,0 +1,1 @@
+In this project, I created an electronics store database. Created the entire database. But I didn 't have time to make requests
