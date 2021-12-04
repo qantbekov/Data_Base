@@ -215,7 +215,7 @@ SELECT product_name, sold_in_2021 as number FROM product group by product_id,sol
 CREATE OR REPLACE FUNCTION bill() RETURNS trigger AS
     $$
     begin
-        INSERT INTO bill VALUES (bill_id,store,date,product_id,product_name,product_cost);
+        INSERT INTO bill VALUES (21,'Sulpak, Rozybakieva',now(),79,'Galaxy S21','300000');
     end;
     $$ language plpgsql;
 
